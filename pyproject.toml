@@ -1,0 +1,31 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BCM3D2.0"
+version = "1.0.0"
+description = "BCM3D 2.0: Accurate segmentation of single bacterialcells in dense biofilms using computationallygenerated intermediate image representations"
+readme = "README.md"
+authors = [{ name = "GahlmannLab", email = "yw9et@virginia.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+    "csbdeep >= 0.7.2",
+    "tifffile"
+]
+requires-python = ">=3.8"
+
+
+[project.urls]
+Homepage = "https://github.com/GahlmannLab/BCM3D-2.0"
+
+
+
