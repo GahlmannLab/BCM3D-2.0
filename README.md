@@ -37,7 +37,7 @@
 
 ## Getting Started
 
-This package was tested on a high-performace computing cluster at University of Virginia with CUDA-enabled GPU and Tensorflow 2.x
+This package was tested on a high-performace computing cluster at University of Virginia with CUDA-enabled GPU and Tensorflow 2.x. All data used in this manuscript (https://www.biorxiv.org/content/10.1101/2021.11.26.470109v3) are available at https://osf.io/m4637.
 
 ### Prerequisites
 
