@@ -49,9 +49,9 @@ This package uses CSBdeep for training deep leanirng modules. Tensorflow 2.x wit
    conda create -n BCM3D2.0 python=3.8
    conda activate BCM3D2.0
    ```
-2. pip install
+2. pip install (or pip3)
    ```sh
-   pip install BCM3D2.0
+   pip install BCM3D
    ```
 
 <!-- USAGE EXAMPLES -->
